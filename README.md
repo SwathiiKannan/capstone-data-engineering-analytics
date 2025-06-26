@@ -15,16 +15,24 @@ This project will invlove data ingestion,ETL, data warehousing, SQL Querying, BI
 - **Version Control**:
 
 ## Dataset Description
+This dataset captures global sales transactions including customer info, product details, sales amounts, and shipping data over multiple years. It combines categorical, numerical, and datetime fields, making it ideal for diverse analyses.
 - **Source**: The data was sourced from Kaggle's "global_superstore_2016.xlsx" dataset.
 - **Format**: Excel Files (.xlsx)
 - **Size**: 51,290 Rows X 24 Columns
 - **Features Overview**:
-    -'Order Date', Ship Date: Dates related to customer orders and shipping.
-    -Customer ID, Customer Name: Customer identity information.
-    -Segment, Region, Country, City, State: Customer demographics and regional data.
-    -Product ID, Product Name, Category, Sub-Category: Product details.
-    -Sales, Quantity, Discount, Profit, Shipping Cost: Key sales and financial metrics.
-    -Ship Mode, Order Priority: Logistics and prioritization details.
-  
+  - `Order Date`, `Ship Date`: Dates related to customer orders and shipping.
+  - `Customer ID`, `Customer Name`: Customer identity information.
+  - `Segment`, `Region`, `Country`, `City`, `State`: Customer demographics and regional data.
+  - `Product ID`, `Product Name`, `Category`, `Sub-Category`: Product details.
+  - `Sales`, `Quantity`, `Discount`, `Profit`, `Shipping Cost`: Key sales and financial metrics.
+  - `Ship Mode`, `Order Priority`: Logistics and prioritization details.
+-**Key Use Cases**:
+  - Evaluate global sales performance and trends
+  - Segment customers by purchase behavior and demographics
+  - Analyze shipping efficiency and delivery timelines
+  - Measure profitability by product and region
+-**Data Quality**:
+  - The Postal Code column has 80% missing values and should be used cautiously or excluded in location-based analyses.
+  - Other data fields are clean and well-structured, supporting reliable exploratory analysis and visualization.
 
 
