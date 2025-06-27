@@ -34,5 +34,15 @@ This dataset captures global sales transactions including customer info, product
 -**Data Quality**:
   - The Postal Code column has 80% missing values and should be used cautiously or excluded in location-based analyses.
   - Other data fields are clean and well-structured, supporting reliable exploratory analysis and visualization.
+ 
+## Data Storage
+The raw dataset is stored in **Azure Data Lake Storage Gen2**, providing a centralized location for all raw data and scalable capacity to accommodate future data growth.
+
+  - **Storage Account**: `capstonestorage79`
+  - **Container Name**: `raw-data-globalsuperstore`
+  - **File(s)**: `global_superstore_20161.xlsx`
+
+This serves as the landing zone for raw data before the ETL process begins. Files were uploaded manually using the Azure Portal interface. The hierarchical namespace was enabled during storage account creation to support Data Lake Gen2 features.
+
 
 
