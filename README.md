@@ -26,12 +26,12 @@ This dataset captures global sales transactions including customer info, product
   - `Product ID`, `Product Name`, `Category`, `Sub-Category`: Product details.
   - `Sales`, `Quantity`, `Discount`, `Profit`, `Shipping Cost`: Key sales and financial metrics.
   - `Ship Mode`, `Order Priority`: Logistics and prioritization details.
--**Key Use Cases**:
+- **Key Use Cases**:
   - Evaluate global sales performance and trends
   - Segment customers by purchase behavior and demographics
   - Analyze shipping efficiency and delivery timelines
   - Measure profitability by product and region
--**Data Quality**:
+- **Data Quality**:
   - The Postal Code column has 80% missing values and should be used cautiously or excluded in location-based analyses.
   - Other data fields are clean and well-structured, supporting reliable exploratory analysis and visualization.
  
