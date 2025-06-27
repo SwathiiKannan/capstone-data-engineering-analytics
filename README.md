@@ -45,7 +45,7 @@ The raw dataset is stored in **Azure Data Lake Storage Gen2**, providing a centr
 This serves as the landing zone for raw data before the ETL process begins. Files were uploaded manually using the Azure Portal interface. The hierarchical namespace was enabled during storage account creation to support Data Lake Gen2 features.
 
 Public access is disabled to maintain security. Data is accessed programmatically using Python during the ETL process. Below is a screenshot showing the file stored in the Azure container:
-![Azure Blob Properties Screenshot](./screenshots/azure_storage.png)
+![Screenshots](./screenshots/azure_storage.png)
 
 
 
