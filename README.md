@@ -46,7 +46,9 @@ This serves as the landing zone for raw data before the ETL process begins. File
 
 Public access is disabled to maintain security. Data is accessed programmatically using Python during the ETL process. Below is a screenshot showing the file stored in the Azure container:
 
-[Click here to view the Azure Blob screenshot](https://github.com/SwathiiKannan/capstone-data-engineering-analytics/blob/main/Screenshots/azure_Storage.png?raw=true)
+[Click here to view the Azure Blob screenshot](https://github.com/SwathiiKannan/capstone-data-engineering-analytics/blob/main/Screenshots/azure_storage.png?raw=true)
+
+![Azure Blob Properties Screenshot](./Screenshots/azure_storage.png)
 
 
 
