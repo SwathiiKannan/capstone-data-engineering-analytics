@@ -99,6 +99,7 @@ The raw dataset was cleaned and preprocessed using pandas in Python. Below are t
 - **Rounded & converted numeric columns**:
   Sales, Profit, Shipping Cost, Discount → rounded and converted to int
 - **Saved cleaned data to a new Excel file**
+  ➤ [`data/Data_Cleaned/global_superstore_20161_cleaned.xlsx`](data/Data_Cleaned/global_superstore_20161_cleaned.xlsx)
 
 
  
