@@ -84,6 +84,22 @@ A global sales dataset containing over 51,000 transactions including customer, p
 
 ## 🗂️ Project Structure
 
+## 🧹 Data Cleaning & Preprocessing (Python + pandas)
+
+The raw dataset was cleaned and preprocessed using pandas in Python. Below are the key steps performed to prepare the data for loading into PostgreSQL.
+
+### 🔧 Cleaning Steps
+- Loaded the dataset from Excel using pandas.read_excel().
+- **Inspected data**:
+  Checked shape, column types, null values. Viewed descriptive stats and sample rows
+- **Dropped columns**:
+  'Postal Code' was ~80% missing → removed
+- **Validated & retained date formats**:
+  Order Date and Ship Date were correctly typed as datetime64
+- **Rounded & converted numeric columns**:
+  Sales, Profit, Shipping Cost, Discount → rounded and converted to int
+- **Saved cleaned data to a new Excel file**
+
 
  
 
